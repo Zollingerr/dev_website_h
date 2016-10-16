@@ -1,0 +1,163 @@
+/*body {
+    background-image: url("back.png");
+    background-repeat: repeat-x;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    background-url: back.png ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+	-webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+	transition-timing-function: ease-in;
+}
+label.btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2; 
+    color: white;
+	font-family: Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+	padding: 5;
+    margin-top: 1px;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked + div{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(FFFFFF.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.btnstyle {
+
+}
+
+
+.img {
+	z-index:1
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(back.png) no-repeat;
+    background-size: cover; 
+}
+
+
+div { float:left;
+  transition-timing-function: cubic-bezier(0.7,0.1,0.8,0.2); 
+  transition-property: margin-top;
+  transition-duration: 2s; 
+  z-index: 1000}
+  
+  input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked + div { margin-top: -500px }*/
+
+.active {
+    display: block;
+}
+
+div {
+    display: none;
+}
+
+body {
+	background-image: url(brainhack.png);
+    background-repeat: repeat-y;
+}
+
+.container h1 {
+    color: white;
+}
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+.btnstyle {
+    font-family: Verdana;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+    background-color: grey;
+    color: #FFFFFF;
+    border: 1px solid black;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-top: 1px;
+}
+
+div.hover:hover {
+	opacity:0.5;
+}
+
+a:hover {
+	background-color:white;
+	color:black;
+}
+
+*.center {
+	
+}

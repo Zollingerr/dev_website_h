@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vid Test</title>
+<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+function SwapDivsWithClick(div1,div2)
+{
+   d1 = document.getElementById(div1);
+   d2 = document.getElementById(div2);
+   if( d2.style.display == "none" )
+   {
+      d1.style.display = "none";
+      d2.style.display = "flex";
+   }
+   else
+   {
+      d1.style.display = "flex";
+      d2.style.display = "none";
+   }
+}
+
+function fadeOut(el){
+	var elem = document.getElementById(el);
+	elem.style.transition = "opacity 0.5s linear 10s";
+	elem.style.opacity = 0;
+}
+
+</script>
+
+
+</head>
+<body>
+<div style="display: none;"
+<a href="http://www.cymbet.com/pdfs/DS-72-08.pdf">Cymbet PDF</a>
+</div>
+<div id="swapper-first" style="display:flex; padding-top:20%; justify-content: center;">
+<a href="javascript:SwapDivsWithClick('swapper-first','swapper-other')" class="btnstyle">Enter</a>
+</div>
+<div id="swapper-other" style="display:none;">
+<video autoplay loop muted poster="screenshot.jpg" id="background">
+    <source src="output_HD720-1.mp4" type="video/mp4">
+</video>
+</div>
+
+
+<!--
+<div style="text-align:center">
+  <img src="back.png" width="100%" height="100%">
+
+<video muted loop id="bgvid" width="1000" height="500">
+    <source src="412171.mp4" type="video/mp4">
+</video>
+</div>
+
+
+<script>
+var myVideo = document.getElementById("bgvid");
+
+function playPause() {
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.pause();
+}
+
+function makeBig() {
+    myVideo.width = 560;
+}
+
+function makeSmall() {
+    myVideo.width = 320;
+}
+
+function makeNormal() {
+    myVideo.width = 420;
+}
+</script>
+
+<label for="check" class="btn btn-default">Toggle background colour</label>
+<input type="checkbox" id="check" />
+<div>  <button onclick="playPause()">Play/Pause</button></div>
+
+<span style="align: center; color:white;"><button id="vidpause">Pause</button></span>-->
+</body>
+</html>
